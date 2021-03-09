@@ -4,12 +4,46 @@ body {
   text-align: center;
 } 
 
-.titlebar h2,
-.titlebar h1 {
+.titlebar h1,
+.titlebar h2 {
   display: inline;
-  vertical-align: middle;
+  vertical-align: middle
+}
+
+h1 {
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.68);
+}
+
+h3 {
+  text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.43);
+}
+
+h4 {
+  font-style: italic;
 }
 
 hr {
   border: 2px solid #FFFEFE;
+}
+
+p {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  margin: auto;
+  max-width: 300px;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #DDDDDD;
 }
